@@ -26,7 +26,6 @@ inputForm.addEventListener('submit', onSubmit);
 
 function onSubmit(event) {
   event.preventDefault();
-
   let delay = parseInt(event.target.elements.delay.value);
   const step = parseInt(event.target.elements.step.value);
   const amount = parseInt(event.target.elements.amount.value);
